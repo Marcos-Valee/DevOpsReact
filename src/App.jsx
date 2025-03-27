@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <header>Este é o header da aplicação!</header>
+      <header><h1>Estudos de React</h1></header>
       <h1>Arquivo pronto para uso!</h1>
     </>
   )
