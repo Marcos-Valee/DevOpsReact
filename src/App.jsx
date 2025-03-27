@@ -10,6 +10,11 @@ function App() {
       idade = {20}
       statusEmprego = {true}
       />
+      <Card 
+      nome = "Vinicius"
+      idade = {21}
+      statusEmprego = {true}
+      />
     </>
   )
 }
