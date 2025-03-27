@@ -15,6 +15,11 @@ function App() {
       idade = {21}
       statusEmprego = {true}
       />
+      <Card 
+      nome = "Roberto"
+      idade = {31}
+      statusEmprego = {false}
+      />
     </>
   )
 }
