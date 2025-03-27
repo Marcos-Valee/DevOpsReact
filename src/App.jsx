@@ -1,12 +1,10 @@
 function App() {
   return (
     <>
-      <header><h1>Estudos de React</h1></header>
-      <h1>Arquivo pronto para uso!</h1>
-      <footer>
-        Este é o footer da aplicação! <br />
-        Aqui você pode colocar políticas de privacidade, informações de contato e muito mais!
-      </footer>
+      <header className="bg-blue-500 text-3xl text-white text-center p-6"><h1>Estudos de React</h1></header>
+      <div>
+        A card
+      </div>
     </>
   )
 }
