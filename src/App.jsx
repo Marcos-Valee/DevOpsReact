@@ -3,7 +3,6 @@ import Card from "./MyComponents/card"
 function App() {
   return (
     <>
-      <header><h1>Estudos de React</h1></header>
       <Card />
       <Card 
       nome = "Marcos"
