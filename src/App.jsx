@@ -21,6 +21,7 @@ function App() {
       statusEmprego = {false}
       />
 
+    <p>Isto é apenas um teste!</p>
 
     </>
   )
