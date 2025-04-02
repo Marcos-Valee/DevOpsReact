@@ -2,6 +2,7 @@ import Card from "./MyComponents/card";
 import "./index.css";
 
 function App() {
+
   return (
     <>
       <header>
@@ -9,9 +10,9 @@ function App() {
       </header>
       <div className="cards-container">
         <Card />
-        <Card nome="Marcos" idade={20} statusEmprego={true} />
-        <Card nome="Vinicius" idade={21} statusEmprego={true} />
-        <Card nome="Roberto" idade={31} statusEmprego={false} />
+        <Card nome="Marcos" apartamento= "Apt.55" statusEmprego={true} />
+        <Card nome="Vinicius" apartamento= "Apt.155" statusEmprego={true} />
+        <Card nome="Roberto" apartamento= "Apt.21" statusEmprego={false} />
       </div>
     </>
   );

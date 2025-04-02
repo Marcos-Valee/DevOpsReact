@@ -5,7 +5,7 @@ header{
 }
 
 .cards-container{
-    @apply flex gap-2 justify-center 
+    @apply grid grid-cols-4 gap-2 place-items-center;
 }
 
 .card{
