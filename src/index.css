@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+header{
+    @apply bg-blue-500 text-3xl text-white text-center p-6
+}
+
+.cards-container{
+    @apply flex gap-2 justify-center 
+}
+
+.card{
+    @apply flex flex-col rounded-md border w-50 gap-2 p-3 mt-3 ml-2
+}
