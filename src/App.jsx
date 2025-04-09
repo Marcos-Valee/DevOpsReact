@@ -38,6 +38,7 @@ function App() {
           apartamento={user[2]?.address.suite || "Carregando..."}
           statusEmprego={false}
         />
+        Teste para o ci
       </div>
     </>
   );
