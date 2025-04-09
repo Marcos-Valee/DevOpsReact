@@ -14,6 +14,9 @@ function App() {
         <Card nome="Vinicius" apartamento= "Apt.155" statusEmprego={true} />
         <Card nome="Roberto" apartamento= "Apt.21" statusEmprego={false} />
       </div>
+      <div>
+        teste
+      </div>
     </>
   );
 }
