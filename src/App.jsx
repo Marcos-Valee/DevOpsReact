@@ -9,7 +9,6 @@ function App() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((data) => setUser(data.slice(0, 3)));
-      console.log(data)
   }, []);
 
   console.log(user);
