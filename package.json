@@ -1,6 +1,7 @@
 {
   "name": "vscodegithub",
   "private": true,
+  "homepage": "https://Marcos-Valee.github.io/DevOpsReact",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
