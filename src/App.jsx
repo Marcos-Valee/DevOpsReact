@@ -38,6 +38,7 @@ function App() {
           apartamento={user[2]?.address.suite || "Carregando..."}
           statusEmprego={false}
         />
+        <Card nome="Carla" apartamento="Apt.51" statusEmprego={false} />
       </div>
       
     </>
