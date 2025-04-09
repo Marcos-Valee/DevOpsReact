@@ -27,17 +27,17 @@ function App() {
         <Card
           nome={user[0]?.name || "Carregando..."}
           apartamento={user[0]?.address.suite || "Carregando..."}
-          statusEmprego={true}
+          statusEmprego={false}
         />
         <Card
           nome={user[1]?.name || "Carregando..."}
           apartamento={user[1]?.address.suite || "Carregando..."}
-          statusEmprego={true}
+          statusEmprego={false}
         />
         <Card
           nome={user[2]?.name || "Carregando..."}
           apartamento={user[2]?.address.suite || "Carregando..."}
-          statusEmprego={true}
+          statusEmprego={false}
         />
       </div>
     </>
