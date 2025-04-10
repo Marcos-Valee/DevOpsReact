@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
-      .then((data) => setUser(data.slice(0, 3)));
+      .then((data) => setUser(data.slice(0, 4)));
   }, []);
 
   console.log(user);
@@ -39,6 +39,11 @@ function App() {
           statusEmprego={false}
         />
         <Card nome="Carla" apartamento="Apt.51" statusEmprego={false} />
+        <Card
+          nome={user[3]?.name || "Carregando..."}
+          apartamento={user[3]?.address.suite || "Carregando..."}
+          statusEmprego={true}
+        />
       </div>
       <p>Teste</p>
     </>
