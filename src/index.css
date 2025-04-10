@@ -1,13 +1,35 @@
-@import "tailwindcss";
-
-header{
-    @apply bg-blue-500 text-3xl text-white text-center p-6
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-.cards-container{
-    @apply grid grid-cols-4 gap-2 place-items-center;
-}
+header {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 250px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-.card{
-    @apply flex flex-col justify-center rounded-md border w-50 gap-2 p-3 mt-3 ml-2 min-h-[180px]
-}
+  
