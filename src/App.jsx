@@ -1,4 +1,4 @@
-import Card from "./MyComponents/card";
+import Card from "./MyComponents/Card";
 import "./index.css";
 import { useEffect, useState } from "react";
 
