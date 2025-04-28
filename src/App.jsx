@@ -55,6 +55,7 @@ function App() {
         />
       </div>
       <p>Teste</p>
+      <p>Teste 2</p>
     </>
   );
 }
