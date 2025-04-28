@@ -6,9 +6,18 @@ function App() {
   const [user, setUser] = useState([]);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((data) => setUser(data.slice(0, 3)));
+    async function fetchUsers() {
+      try {
+        const response = await fetch(
+          "https://jsonplaceholder.typicode.com/users"
+        );
+        const data = await response.json();
+        setUser(data.slice(0, 3));
+      } catch (error) {
+        console.error("erro ao buscar usuários", error);
+      }
+    }
+    fetchUsers();
   }, []);
 
   console.log(user);
