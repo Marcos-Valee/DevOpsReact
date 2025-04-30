@@ -1,4 +1,5 @@
 import "../index.css"
+import React from "react";
 
 function Card({nome = "não informado",  apartamento = "não informado", statusEmprego = false}){
     return(
