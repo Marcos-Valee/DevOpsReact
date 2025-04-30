@@ -1,6 +1,6 @@
 # 🚀 Atividade de DevOps com React
 
-![Screenshot da Aplicação](https://raw.githubusercontent.com/Marcos-Valee/WeatherApp/main/src/images/screenshot.png)
+![Screenshot da Aplicação](https://raw.githubusercontent.com/Marcos-Valee/VsCodeGitHub/main/src/images/screenshot.png)
 
 ## 🎯 Objetivo
 
