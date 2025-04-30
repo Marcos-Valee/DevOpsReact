@@ -19,7 +19,7 @@ function App() {
           "https://jsonplaceholder.typicode.com/users"
         );
         const data = await response.json();
-        setUser(data.slice(0, 3));
+        setUser(data.slice(0, 4));
       } catch (error) {
         console.error("erro ao buscar usuários", error);
         setUser([]);
