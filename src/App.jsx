@@ -5,6 +5,7 @@ import React from "react";
 
 function App() {
   const [user, setUser] = useState([]);
+  const [loading, setLoading] = useState(true); // Estado de carregamento
   const [newUser, setNewUser] = useState({
     name: "",
     suite: "",
@@ -21,6 +22,9 @@ function App() {
         setUser(data.slice(0, 3));
       } catch (error) {
         console.error("erro ao buscar usuários", error);
+        setUser([]);
+      } finally {
+        setLoading(false);
       }
     }
     fetchUsers();
@@ -36,7 +40,7 @@ function App() {
           statusEmprego: newUser.statusEmprego,
         },
       ]);
-      setNewUser({ name: "", suite: "", statusEmprego: false });
+      setNewUser({ name: "", suite: "", statusEmprego: false }); // Limpa os campos do formulário
     }
   };
 
@@ -71,15 +75,18 @@ function App() {
         <button onClick={handleAddUser}>Adicionar Usuário</button>
       </div>
       <div className="cards-container">
-        <Card />
-        {user.map((u, index) => (
-          <Card
-            key={index}
-            nome={u.name || "Carregando..."}
-            apartamento={u.address?.suite || "Carregando..."}
-            statusEmprego={u.statusEmprego}
-          />
-        ))}
+        {loading ? (
+          <p>Carregando...</p>
+        ) : (
+          user.map((u, index) => (
+            <Card
+              key={index}
+              nome={u.name || "Carregando..."}
+              apartamento={u.address?.suite || "Carregando..."}
+              statusEmprego={u.statusEmprego}
+            />
+          ))
+        )}
       </div>
     </>
   );
