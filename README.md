@@ -4,7 +4,7 @@
 
 ## 🎯 Objetivo
 
-O objetivo desta aplicação é unir os conhecimentos de **DevOps** com os estudos de **React**, criando uma aplicação prática que integra desenvolvimento, testes automatizados e integração contínua.
+O objetivo desta aplicação é unir os conhecimentos de **DevOps** com os estudos de **React** para um **projeto acadêmico**, criando uma aplicação prática que integra desenvolvimento, testes automatizados e integração contínua.
 
 ## 🛠️ Funcionalidades
 
@@ -65,3 +65,7 @@ Os testes foram desenvolvidos para garantir a funcionalidade e a estabilidade da
 - **Objetivo**: Enviar notificações para um canal do Discord sempre que houver um commit.
 
 Este fluxo garante que o código seja testado em diferentes versões do Node.js e que a equipe seja notificada sobre as alterações no repositório.
+
+## ⚠️ Observação
+
+Este projeto foi desenvolvido para **fins acadêmicos** e não deve ser utilizado em produção sem as devidas adaptações e melhorias, como:
